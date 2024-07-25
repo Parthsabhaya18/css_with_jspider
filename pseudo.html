@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* first letter design  */
+        p::first-letter{
+            color: palevioletred;
+            font-size: 60px;
+        }
+        /* line design  */
+        h3::first-line{
+            color: plum;
+            font-size: 20px;
+        }
+        /* tag before add some content and image symbol  */
+        h1::before{
+            content: "Welcome to ";  
+        }
+        /* tag after add some content and image symbol */
+        h1::after{
+            /* content: url(../photos/d1.jpg); */
+            content: "@";
+        }
+        input{
+            font-size: 50px;
+        }
+        /* input tag placeholder under name are design  */
+        input::placeholder{
+            color: blueviolet;
+            text-shadow: 00px 8px 10px black;
+        }
+    </style>
+</head>
+<body>
+    <input placeholder="Enter Your name" type="text">
+    <h1>Jspider</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam consequuntur iure unde repellendus in velit illum saepe sunt blanditiis quisquam?</p>
+    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus reiciendis cum magnam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam debitis nam vel doloribus perspiciatis magni labore unde numquam sunt laudantium explicabo atque veniam praesentium voluptatibus magnam eveniet ipsam deleniti, et, nobis aperiam impedit dolorem?
+    </h3>
+
+</body>
+</html>
