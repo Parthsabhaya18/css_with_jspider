@@ -6,13 +6,11 @@
     <title>Document</title>
     <style>
         .parent{
-            display: flex;
-            /* flex-direction: column; */
-            flex-direction: column-reverse;
-            /* flex-direction: row; */
-            /* flex-direction: row-reverse; */
-            align-items:start;
-            justify-content: start;
+            display: grid;
+            grid-template-rows: 150px 150px 150px;
+           grid-template-columns: 150px 150px 150px;
+           align-items: end;
+           justify-content:end;
             height: 500px;
             width: 500px;
             font-size: 60px;
@@ -46,6 +44,12 @@
         <div class="child1">1</div>
         <div class="child2">2</div>
         <div class="child3">3</div>
+        <div class="child1">4</div>
+        <div class="child2">5</div>
+        <div class="child3">6</div>
+        <div class="child1">7</div>
+        <div class="child2">8</div>
+        <div class="child3">9</div>
     </div>
 </body>
 </html>
